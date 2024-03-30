@@ -1,0 +1,10 @@
+Create new "furnishop" database in phpMyAdmin and run the sql script
+(If you want to use seeders, they work only when auto_increment in DB is set to 1)
+
+Credentials for 2 initial accounts:
+
+admin@mail.com
+Admin1
+
+korisnik@mail.com
+Lozinka1

@@ -1,0 +1,202 @@
+.mobile-logo img{
+    height: 40px;
+}
+
+.padding-fix{
+    padding: 100px 0px 50px 0px;
+
+}
+@media screen and (min-width: 768px){
+    .padding-fix {
+        padding: 200px 0px 100px 0px;
+    }
+}
+
+
+.logo-footer img{
+    max-width: 200px;
+}
+.logo-footer {
+    text-align: center;
+}
+
+#megamenu > ul > li > a{
+    padding-left: 20px !important;
+    font-size: 1.4em !important;
+}
+#mobile-menu-separator{
+    min-height: 30px;
+}
+
+#mobile_search_content {
+    width: 100% !important;
+}
+
+.mobile-top-menu ul.menu.level1
+{
+    overflow-x: hidden;
+}
+
+/*HOME*/
+.nivoSlider {
+    min-height: 60vh;
+    max-height: 90vh;
+}
+.nivoSlider img {
+    object-fit: cover;
+    min-height: 60vh !important;
+}
+@media screen and (min-width: 600px){
+
+    #home .product-miniature.js-product-miniature img {
+        max-height:200px;
+    }
+}
+.menu-banner .verticalmenu .menu li:last-of-type {
+    border-bottom-color: transparent !important;
+}
+#home > div.main-content > div.wrap-banner > div.container.position > div.menu-banner {
+    margin-top: 9pc;
+}
+@media screen and (min-width: 920px){
+    #home > div.main-content > div.wrap-banner > div.container.position > div.menu-banner {
+        margin-top: 12pc;
+    }
+}
+
+body#home .menu-banner.d-xs-none .verticalmenu .menu {
+    max-height: initial !important;
+    overflow-y: visible !important;
+}
+body#home .menu-banner.d-xs-none .verticalmenu .menu .dropdown-menu {
+    width: auto !important;
+}
+#featured-ideas {
+    margin-top: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+#featured-ideas img{
+    object-fit: cover;
+}
+#featured-category-lookbook img {
+    object-fit: cover;
+}
+
+/*SHOP*/
+
+[class~=tab-content] [class~=item] [class~=product-miniature]:hover [class~=product-group-price]{
+    opacity: 1;
+}
+
+[class~=tab-content] [class~=item] [class~=product-miniature] [class~=thumbnail-container] a {
+    padding: 20px;
+    background: white;
+    min-height: 220px;
+    max-height: 220px;
+    display: flex;
+    align-items: center;
+}
+
+.tab-content .item .product-miniature .thumbnail-container a .image-secondary {
+    top: auto;
+}
+.cateTitle .cateItem.active {
+    color: #ff5151 !important;
+}
+.page-list li {
+    padding: 0 !important;
+    width: 25px !important;
+}
+
+.js-qv-mask.mask.tab-content.border {
+    padding: 20px 0;
+}
+.js-qv-mask.mask.tab-content.border img {
+    width: 100% !important;
+}
+.product-tab.nav.nav-tabs.d-flex li {
+    text-align: center;
+    max-width: 120px !important;
+}
+.product-tab.nav.nav-tabs.d-flex a {
+    text-align: center;
+    padding: 10px !important;
+}
+@keyframes ldio-gtqqnh8aig {
+    0% { transform: rotate(0deg) }
+    50% { transform: rotate(180deg) }
+    100% { transform: rotate(360deg) }
+}
+.ldio-gtqqnh8aig div {
+    position: absolute;
+    animation: ldio-gtqqnh8aig 0.98s linear infinite;
+    width: 118.32000000000001px;
+    height: 118.32000000000001px;
+    top: 42.84px;
+    left: 42.84px;
+    border-radius: 50%;
+    box-shadow: 0 5.304px 0 0 #c2c2c2;
+    transform-origin: 59.160000000000004px 61.812000000000005px;
+}
+.loadingio-spinner-eclipse-97z8f7sijjj {
+    width: 204px;
+    height: 204px;
+    display: inline-block;
+    overflow: hidden;
+    background: none;
+}
+.ldio-gtqqnh8aig {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; /* see note above */
+}
+.ldio-gtqqnh8aig div { box-sizing: content-box; }
+
+#products-loader {
+    display: flex;
+    min-height: 400px;
+}
+
+/*LOOKBOOK*/
+.open-left.content-lookbook {
+    right: 2px;
+}
+
+#lookbook .lookbook-category .lookbook-link {
+
+    font-size: .114583333in;
+    font-weight: 500;
+    color: #666;
+    padding: 6pt 1.4375pc;
+    border-radius: .260416667in;
+    text-transform: uppercase;
+
+}
+#lookbook .lookbook-category .lookbook-link.active {
+
+    background: #000;
+    color: #fff;
+
+}
+
+.lookbook-title {
+    text-transform: uppercase;
+    opacity: .7;
+}
+
+@media screen and (max-width: 375px) {
+    #wrapper-site #content-wrapper #main .groupbanner-special .tiva-lookbook .items .tiva-content-lookbook .item-lookbook .content-lookbook {
+        min-width: auto;
+        margin-left: 0;
+    }
+}
+
+/*CONTACT*/
+
+#contact-form input, #contact-form textarea  {
+    text-transform: none !important;
+}

@@ -1,0 +1,112 @@
+.logo img{
+    max-width: 70%;
+}
+
+.content .container-fluid > .row {
+    padding: 0 20px;
+}
+.ml-3  {
+    margin-left: 10px;
+}
+.ml-5  {
+    margin-left: 20px;
+}
+.mx-3  {
+    margin: 0 10px;
+}
+.mt-3 {
+    margin-top: 10px;
+}
+.my-3 {
+    margin: 10px 0;
+}
+.my-5 {
+    margin: 20px 0;
+}
+.mt-5 {
+    margin-top: 20px;
+}
+i.big {
+    font-size: 2em;
+    line-height: .1;
+}
+.small-btn {
+    padding: 0px 10px;
+    padding-top: 15px;
+}
+
+.content.table-responsive {
+    margin-top: 80px;
+}
+.product-image img{
+    max-width: 100px;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+input[type=file] {
+    max-width: 250px;
+}
+#idea-image {
+    padding: 0;
+    position: relative;
+}
+.pin-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    z-index: 100;
+    box-shadow: 2px 3px 10px #000;
+    animation: blink 1s 0s infinite ;
+
+}
+@keyframes blink {
+    0% { opacity: 0; }
+    40% { opacity: 1; }
+    60% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
+.product-pin {
+    box-shadow: 0 1px 2px rgb(0 0 0 / 5%), 0 0 0 1px rgb(63 63 68 / 10%);
+    border-radius: 5px;
+    padding: 10px;
+}
+.product-pin input {
+    max-width: 70px;
+    display: inline;
+}
+
+.form-error-border {
+    border: 1px solid red;
+}
+
+.mt-big {
+    margin-top: 70px;
+}
+
+.featured-category > div {
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.stats {
+    max-width: 400px;
+    padding: 20px 10px;
+}
